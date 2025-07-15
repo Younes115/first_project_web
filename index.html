@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="nav">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#Hobbies">Hobbies</a>
+        <a href="#birthday">Birthday</a>
+        <a href="#contact">Contact</a>
+        <a href="#countires">Countries</a>
+        <a href="#cv">CV</a>
+    </nav>
+    </div>
+    <hr>
+    <div id="home">
+        <h1>Welcome to My Web Page</h1>
+        <img src="../avatar.png" alt="Avatar" width="100" height="100">
+        <p>My name is Younes, i love codding , my age is 21 years old.</p>
+    </div>
+    <hr>
+    <div id="Hobbies">
+        <h2>My Hobbies</h2><p></p>
+        
+           <div class="hobbie"> Coding </div>
+            <img src="../html-structure.png" alt="Coding">
+            <div class="hobbie"> Writing </div>
+            <img src="../writing-1146488500-1024x683.jpg" alt="Writing">
+            <div class="hobbie"> Traveling </div>
+            <img src="../travel.jpg" alt="traveling">
+        
+    </div>
+    <hr>
+   <div id="birthday">
+    <h2>My Birthday</h2>
+    <img src="../birthday.jpg" alt="Birthday Celebration" width="300" height="200">
+    <h3>Write a kind message</h3>
+    <input type="checkbox" id="submitToggle" style="display: none;" />
+
+    <form onsubmit="document.getElementById('submitToggle').checked = true; return false;">
+     <input type="text" name="write" placeholder="Write a kind msg" required>
+     <input type="submit" value="Submit">
+    </form>
+  <p id="thank">🎉 Thank you for your kind message! 🎉</p>
+    </div>
+    <hr>
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <form id="cont">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+        Facebook:
+        <img src="../52265-104018-Facebook-xl.jpg" alt="Facebook" width="100" height="100">
+        Instagram:
+        <img src="../insta.jpg" alt="insta" width="100" height="100">
+        <hr>
+        <div id="countires">
+        <h2>Countries I want to Visited</h2>
+        <div class="slide">
+            <p>1. france </p>
+            <img src="../france.jpeg" alt="France" width="200" height="150">
+        </div>
+        <div class="slide">
+            <p>2. japan </p>
+            <img src="../japan.jpeg" alt="France" width="200" height="150">
+        </div>
+        <div class="slide">
+            <p>3. spain </p>
+            <img src="../spain.jpg" alt="France" width="200" height="150">
+        </div>
+        <div class="slide">
+            <p>4. Engeland </p>
+            <img src="../england.jpg" alt="France" width="200" height="150">
+        </div>
+        <div class="slide">
+            <p>5. palestine </p>
+            <img src="../palestine.jpg" alt="France" width="200" height="150">
+        </div>
+        <div class="slide">
+            <p>6. Italy </p>
+            <img src="../italy.jpg" alt="France" width="200" height="150">
+        </div>
+    </div>
+    <hr>
+    <dev id="cv">
+  <h2>My CV</h2>
+  <p>Name: Younes Aiman</p>
+  <p>Skills: HTML, CSS, JavaScript,NodeJs</p>
+  <p>Education: Secondary School, colleage </p>
+    </dev>
+
+
+</body>
+</html>

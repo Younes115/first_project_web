@@ -1,0 +1,220 @@
+
+body{
+    background-color: rgba(181, 88, 88, 0.486);
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+   
+}
+#nav {
+  background-color: rgb(34, 178, 231);
+  padding: 10px;
+  
+  
+}
+#nav a:hover{
+  color: aquamarine;
+
+}
+#nav a:active{
+  color: red;
+}
+#nav a {
+  color: rgb(196, 18, 137);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+#home {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hobbie{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    font: size 16rem;
+    height: 100vh;
+          
+}
+#Hobbies img{
+    display: inline-block;
+    width: 200wv;
+    height: 200px;
+    transition: all 0.5s ease-in-out;
+    
+}
+#Hobbies:hover img{
+    
+    transform: scale(1.1);
+    
+}
+
+#birthday {
+      max-width: 500px;
+      margin: auto;
+      border: 2px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      height: 80vh;
+    }
+
+    #thank, .thank-message {
+      display: none;
+    }
+
+    #submitToggle {
+      display: none;
+    }
+
+    #submitToggle:checked ~ #thank {
+      display: block;
+      color: green;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    #submitToggle:checked ~ form,
+    #submitToggle:checked ~ img,
+    #submitToggle:checked ~ h3 {
+      display: none;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 8px;
+      margin-top: 10px;
+    }
+
+    input[type="submit"], label[for="submitToggle"] {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+#cont{
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap; /* يخلي التنسيق يتظبط لو الشاشة صغيرة */
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cont input[type="text"],
+#cont input[type="email"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  align-items: right;
+}
+
+#cont textarea {
+  width: 55%;
+  height: 80px;
+  padding: 05px;
+  resize: none;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#cont input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* تنسيق جزء Facebook و Instagram */
+img {
+  vertical-align: middle;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.social div {
+  text-align: center;
+}
+
+#countires {
+  padding: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+  height: 100vh;
+}
+
+#countires h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#countires {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.slide {
+  display: inline-block;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  vertical-align: top;
+  width: 220px;
+  transition: transform 0.3s;
+}
+
+.slide:hover {
+  transform: scale(1.05);
+}
+
+.slide p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#cv {
+  padding: 30px;
+  text-align: center;
+  height: 100vh;
+}
